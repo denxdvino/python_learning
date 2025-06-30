@@ -1,6 +1,6 @@
 ﻿while True:
     name = input("Как тебя зовут?: ")
-    if name.lower() == "денис" or  name.lower() == "ден":
+    if name.lower() in ("денис", "ден"):
         print("А это ты, тебя я знаю, тебе 26 :)")
         continue
     else:
